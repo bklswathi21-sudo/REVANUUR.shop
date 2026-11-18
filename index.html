@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Revanuur — thoughtfully curated fashion and lifestyle essentials." />
+    <title>Revanuur — Everyday, Elevated</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="announcement">
+      <p>Complimentary shipping on orders over ₹1,499</p>
+      <button type="button" aria-label="Close announcement">×</button>
+    </div>
+
+    <header class="header">
+      <a class="brand" href="#" aria-label="Revanuur home">REVANUUR</a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#new">New Arrivals</a>
+        <a href="#shop">Shop</a>
+        <a href="#story">Our Story</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button search-button" type="button" aria-label="Search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg>
+        </button>
+        <button class="cart-button" type="button" aria-label="Shopping bag">
+          <span>Bag</span><span class="cart-count">0</span>
+        </button>
+        <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-image" role="img" aria-label="Woman wearing an elegant neutral outfit"></div>
+        <div class="hero-content">
+          <p class="eyebrow">The Autumn Edit 2026</p>
+          <h1>Everyday,<br /><em>elevated.</em></h1>
+          <p class="hero-copy">Considered pieces for a life lived beautifully—made to move with you, season after season.</p>
+          <a class="primary-button" href="#shop">Explore the collection <span>↗</span></a>
+        </div>
+      </section>
+
+      <section class="category-strip" aria-label="Shop by category">
+        <a href="#shop" class="category-card">
+          <div class="category-image category-dresses"></div>
+          <span>Dresses</span><b>24 pieces</b>
+        </a>
+        <a href="#shop" class="category-card">
+          <div class="category-image category-tops"></div>
+          <span>Tops</span><b>18 pieces</b>
+        </a>
+        <a href="#shop" class="category-card">
+          <div class="category-image category-accessories"></div>
+          <span>Accessories</span><b>12 pieces</b>
+        </a>
+      </section>
+
+      <section class="products-section" id="shop">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Just in</p>
+            <h2>New arrivals</h2>
+          </div>
+          <a class="text-link" href="#new">View all <span>→</span></a>
+        </div>
+        <div class="product-grid" id="new">
+          <article class="product-card">
+            <div class="product-image-wrap">
+              <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85" alt="Ivory linen dress" />
+              <span class="badge">New</span>
+              <button class="quick-add" type="button" data-name="The Linen Column Dress">Quick add <span>+</span></button>
+            </div>
+            <div class="product-info"><div><h3>The Linen Column Dress</h3><p>Ivory</p></div><strong>₹4,290</strong></div>
+          </article>
+          <article class="product-card">
+            <div class="product-image-wrap">
+              <img src="https://images.unsplash.com/photo-1551232864-3f0890e580d9?auto=format&fit=crop&w=900&q=85" alt="Textured tan blouse" />
+              <span class="badge">Bestseller</span>
+              <button class="quick-add" type="button" data-name="The Textured Wrap Blouse">Quick add <span>+</span></button>
+            </div>
+            <div class="product-info"><div><h3>The Textured Wrap Blouse</h3><p>Sienna</p></div><strong>₹2,890</strong></div>
+          </article>
+          <article class="product-card">
+            <div class="product-image-wrap">
+              <img src="https://images.unsplash.com/photo-1581044777550-4cfa60707c03?auto=format&fit=crop&w=900&q=85" alt="Black tailored trousers" />
+              <button class="quick-add" type="button" data-name="The Tailored Easy Trouser">Quick add <span>+</span></button>
+            </div>
+            <div class="product-info"><div><h3>The Tailored Easy Trouser</h3><p>Black</p></div><strong>₹3,490</strong></div>
+          </article>
+          <article class="product-card">
+            <div class="product-image-wrap">
+              <img src="https://images.unsplash.com/photo-1594223274512-ad4803739b7c?auto=format&fit=crop&w=900&q=85" alt="Structured cognac leather bag" />
+              <span class="badge">Limited</span>
+              <button class="quick-add" type="button" data-name="The Everyday Crescent">Quick add <span>+</span></button>
+            </div>
+            <div class="product-info"><div><h3>The Everyday Crescent</h3><p>Cognac</p></div><strong>₹5,190</strong></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="story" id="story">
+        <div class="story-image" role="img" aria-label="Revanuur founder in a sunlit studio"></div>
+        <div class="story-content">
+          <p class="eyebrow">Our philosophy</p>
+          <h2>Less, but <em>lovelier.</em></h2>
+          <p>We believe the pieces you reach for every day should feel special. Our collection is thoughtfully curated—from enduring silhouettes to tactile natural fabrics.</p>
+          <a class="text-link" href="#story">Discover our story <span>→</span></a>
+        </div>
+      </section>
+
+      <section class="quote-section">
+        <p class="eyebrow">Notes from our community</p>
+        <blockquote>“The kind of clothes that make you feel completely, quietly yourself.”</blockquote>
+        <p class="quote-author">— Ananya R., Bengaluru</p>
+      </section>
+
+      <section class="newsletter">
+        <div>
+          <p class="eyebrow">Stay in the know</p>
+          <h2>A little beauty,<br />delivered.</h2>
+        </div>
+        <form class="newsletter-form">
+          <label for="email">Email address</label>
+          <div>
+            <input id="email" type="email" placeholder="you@example.com" required />
+            <button type="submit" aria-label="Subscribe">→</button>
+          </div>
+          <p class="form-message" role="status"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <a class="brand footer-brand" href="#">REVANUUR</a>
+      <div class="footer-links">
+        <div><h3>Shop</h3><a href="#new">New arrivals</a><a href="#shop">All products</a><a href="#shop">Gift cards</a></div>
+        <div><h3>About</h3><a href="#story">Our story</a><a href="#story">Journal</a><a href="mailto:hello@revanuur.shop">Contact</a></div>
+        <div><h3>Follow</h3><a href="#">Instagram</a><a href="#">Pinterest</a></div>
+      </div>
+      <div class="footer-bottom"><p>© 2026 Revanuur</p><div><a href="#">Privacy</a><a href="#">Terms</a></div></div>
+    </footer>
+
+    <aside class="bag-panel" aria-hidden="true">
+      <div class="bag-header"><h2>Your bag</h2><button class="close-bag" type="button" aria-label="Close bag">×</button></div>
+      <div class="bag-items"><p>Your bag is empty.</p></div>
+      <div class="bag-footer"><div><span>Subtotal</span><strong class="subtotal">₹0</strong></div><button type="button">Checkout</button></div>
+    </aside>
+    <div class="overlay"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
